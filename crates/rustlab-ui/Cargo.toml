@@ -1,0 +1,17 @@
+[package]
+name = "rustlab-ui"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+adw.workspace = true
+gtk.workspace = true
+rustlab-editor = { path = "../rustlab-editor" }
+rustlab-lsp = { path = "../rustlab-lsp" }
+serde_json = "1"
+rustlab-cargo = { path = "../rustlab-cargo" }
+rustlab-projects = { path = "../rustlab-projects" }
+rustlab-settings = { path = "../rustlab-settings" }
+
+[dev-dependencies]
+tempfile.workspace = true

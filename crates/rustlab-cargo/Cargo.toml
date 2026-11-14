@@ -1,0 +1,11 @@
+[package]
+name = "rustlab-cargo"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+libc = "0.2"
+serde_json = "1"
+
+[dev-dependencies]
+tempfile.workspace = true

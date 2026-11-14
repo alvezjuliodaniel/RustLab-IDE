@@ -1,0 +1,16 @@
+[workspace]
+members = ["crates/*"]
+resolver = "3"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+
+[workspace.dependencies]
+gtk = { package = "gtk4", version = "=0.10.3", features = ["v4_10"] }
+adw = { package = "libadwaita", version = "=0.8.0" }
+sourceview5 = { version = "=0.10.0", features = ["v5_6"] }
+tempfile = "3"
+
+[profile.dev]
+debug = 0

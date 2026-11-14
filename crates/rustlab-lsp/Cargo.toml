@@ -1,0 +1,10 @@
+[package]
+name = "rustlab-lsp"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+serde_json = "1"
+
+[dev-dependencies]
+tempfile.workspace = true

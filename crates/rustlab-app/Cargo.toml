@@ -1,0 +1,9 @@
+[package]
+name = "rustlab-app"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+adw.workspace = true
+gtk.workspace = true
+rustlab-ui = { path = "../rustlab-ui" }

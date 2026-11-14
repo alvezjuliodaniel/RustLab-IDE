@@ -1,0 +1,9 @@
+[package]
+name = "rustlab-editor"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+gtk.workspace = true
+sourceview5.workspace = true
+rustlab-core = { path = "../rustlab-core" }
